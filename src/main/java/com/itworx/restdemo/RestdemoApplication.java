@@ -10,12 +10,6 @@ public class RestdemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RestdemoApplication.class, args);
 
-		Employee employee = new Employee();
-		employee.setId(1345l);
-		employee.setFirstName("John");
-		employee.setLastName("Refaat");
-		employee.setEmailId("john.refaat@itworx.com");
-		System.out.println(employee.toString());
 	}
 
 }
